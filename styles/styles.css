@@ -4,3 +4,193 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
+/*Container*/
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+
+#footer {
+	
+}
+/*Header*/
+header {
+	display: flex;
+}
+
+#logo {
+	position: relative;
+	margin-left: 8vh;
+	padding: 0 4vh;
+}
+	
+/*Navigation*/	
+#navigation {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+		
+}
+.navigation li:first-of-type {
+	margin-left: 4vw;
+}
+
+.navigation li {
+   float: left;
+	
+}
+
+.navigation li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 24px;
+	margin: 0 1vw;
+    text-decoration: none;
+	position: relative;
+}
+.navigation li a:hover {
+	color: #008BFF;
+}
+#navigation a.active {
+	color: black;
+	background: #CECECE;
+}
+
+/*Main style*/
+
+#main {
+	width: 100%;
+	height: 80%;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+#profile {
+	margin-left: 30%;
+	border-radius: 50%;
+	box-shadow: 3px 3px 7px 0px gray;
+}
+#left {
+	width: 35%;
+	
+}
+#right {
+	margin-top: 7%;
+	margin-left: 10%;
+	width: 35%;
+	line-height: 28px;
+	
+}
+#right h2 {
+	letter-spacing: 3px;
+}
+/*Work*/
+#main2 {
+	width: 100%;
+	height: 80%;
+	padding: 0px 10px 0 10px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	
+}
+.flexitem {
+	margin: 4px;
+	padding-top: 10px;
+	background: #D1D1D1;
+	
+}
+.flextext {
+	width: 300px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: left;
+}
+.flextext p, h4 {
+	padding: 0 5px 0 5px;
+	text-align: left;
+	
+}
+.flextext h4 {
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
+/*About me*/
+#about {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+.about-text {
+	margin: 5px;
+	padding: 20px 30px 20px 30px;
+	width: 300px;
+	border: 1px solid black;
+	border-radius: 6px;
+	background-color: rgba(201,201,201,0.20);
+	height: 400px;
+	letter-spacing: 0.6px;
+}
+.aboutlist {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.abouttext {
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border-bottom: 1px solid black;
+	
+}
+.abouttext:last-of-type {
+	border-bottom: none;
+}
+#background {
+	line-height: 28px;
+}
+
+
+
+/*Contact form*/
+#contact {
+	margin-left: auto;
+	margin-right: 3vw;
+	padding: 5px 30px 30px 30px;
+	border: 1px solid black;
+	border-radius: 4px;
+	width: 20vw;
+}
+input[type=text], [type=email], textarea {
+    width: 100%;
+    padding: 12px;   
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical
+}
+#social {
+	display: flex;
+	flex-flow: column;
+	margin-left: 3vw;
+	margin-right: auto;
+}
+
